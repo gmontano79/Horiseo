@@ -62,7 +62,9 @@ p {
   background-size: cover;
   background-position: center;
 }
-
+article {
+  display: inline;
+}
 /* CONTENT LEFT SIDE STYLING */
 
 .float-left {
@@ -107,6 +109,9 @@ p {
 
 /* CONTENT RIGHT SIDE STYLING */
 
+aside {
+  display: inline;
+}
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -116,6 +121,7 @@ p {
   height: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
+  display: inline-block;
 }
 
 .benefit-lead,
