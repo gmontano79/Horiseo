@@ -10,6 +10,11 @@ body {
 /* HEADER STYLING */
 
 .header {
+  position: sticky;
+  top: 0;
+}
+
+.header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -52,6 +57,11 @@ p {
   font-size: 16px;
 }
 
+/* CONTENT LEFT SIDE STYLING */
+main {
+  display: inline;
+}
+
 /* HEADER IMAGE BELOW NAVIGATION */
 
 .hero {
@@ -62,10 +72,6 @@ p {
   background-size: cover;
   background-position: center;
 }
-article {
-  display: inline;
-}
-/* CONTENT LEFT SIDE STYLING */
 
 .float-left {
   float: left;
